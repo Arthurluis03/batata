@@ -1,0 +1,25 @@
+programa { //Desafio 1: Verificador de Idade. Faça um programa que leia a idade de uma pessoa e informe se ela é: Criança (0 a 12) – Adolescente (13 a 17) – Adulto (18 a 59) – Idoso (60 ou mais)
+    inteiro numero[8], idade=0
+    funcao inicio()
+    {
+        escreva("\nDigite sua idade: ")
+        leia(idade)
+
+        se(idade<11)
+        {
+            escreva("\nSua idade é de uma criança")
+        }
+        se( (idade>12)>=17 )
+        {
+            escreva("\nSua idade é de uma adolescente")
+        }
+        se( (idade>17)==(idade<=59) )
+        {
+            escreva("\nVocê tem idade de um adulto!!")
+        }
+        se( (idade>=60) )
+        {
+            escreva("\n Sua idade é de um idoso, se aposente por favor!!!")
+        }
+    }
+}

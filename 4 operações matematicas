@@ -1,0 +1,44 @@
+programa {
+    inteiro tabuada, i, numerototal, contador, soma=1, numerotabu
+    real resultado
+
+    funcao inicio()
+    {
+        escreva("Digite um número para ver a tabuada: ")
+        leia(numerotabu)
+        escreva("\nTabuada do ", numerotabu, ":\n")
+
+        // Soma
+        para(i = 1; i <= 10; i++)
+        {
+            resultado = numerotabu + i
+            escreva(numerotabu, " + ", i, " = ", resultado, "\n")
+        }
+        escreva("\n")
+
+        // Subtração
+        para(i = 1; i <= 10; i++)
+        {
+            resultado = numerotabu - i
+            escreva(numerotabu, " - ", i, " = ", resultado, "\n")
+        }
+
+        escreva("\n")
+
+        // Multiplicação
+        para(i = 1; i <= 10; i++)
+        {
+            resultado = numerotabu * i
+            escreva(numerotabu, " x ", i, " = ", resultado, "\n")
+        }
+
+        escreva("\n")
+
+        // Divisão
+        para(i = 1; i <= 10; i++)
+        {
+            resultado = numerotabu / i
+            escreva(numerotabu, " / ", i, " = ", resultado, "\n")
+        }
+    }
+}

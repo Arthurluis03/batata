@@ -1,0 +1,34 @@
+programa { // carta do programador do codigo, funciona desta forma ex o* enter v* enter o* enter , r*a*d*a*r coloque desta forma!!! e para dar ok, coloque apenas o * e dê enter
+
+    funcao inicio()
+    {
+        inteiro tamanho = 0, i
+        cadeia palavra = "", invertida = ""
+        caractere c
+        escreva("carta do programador do codigo, funciona desta forma ex o* enter v* enter o* enter , r*a*d*a*r coloque desta forma!!! e para dar ok, coloque apenas o * e dê enter\n\n\n")
+        escreva("Digite a palavra (digite * para terminar): ")
+
+        // Lê caractere por caractere até encontrar *
+        enquanto (verdadeiro)
+        {
+            leia(c)
+            se (c == "*")
+                pare
+            letras[tamanho] = c
+            tamanho = tamanho + 1
+            palavra = palavra + c
+        }
+
+        // Monta palavra invertida
+        para (i = tamanho - 1; i >= 0; i--)
+        {
+            invertida = invertida + letras[i]
+        }
+
+        // Verifica se é palíndromo
+        se (palavra == invertida)
+            escreva("\nA palavra ", palavra, " é um palíndromo.")
+        senao
+            escreva("\nA palavra ", palavra, " não é um palíndromo.")
+    }
+}

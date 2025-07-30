@@ -1,0 +1,25 @@
+programa {
+    inteiro numero[8], i, contador = 0, somaPar = 0
+
+    funcao inicio()
+    {
+        para(i = 0; i < 8; i++)
+        {
+            escreva("\nDigite o numero ", i + 1, ": ")
+            leia(numero[i])
+        }
+
+        para(i = 0; i < 8; i++)
+        {
+            se(numero[i] % 2 == 0)
+            {
+                escreva("\nEste numero é par: ", numero[i])
+                contador++
+                somaPar = somaPar + numero[i]
+            }
+        }
+
+        escreva("\nQuantidade de numeros pares: ", contador)
+        escreva("\nSoma dos numeros pares: ", somaPar)
+    }
+}

@@ -1,0 +1,19 @@
+programa { // salvar os nomes, depois coloca‑los a frente com o nome impresso, pelo menos oq eu entendi, faça a lista!!
+    funcao inicio()
+    {
+        cadeia fila[4]
+        inteiro i
+
+        para(i = 0; i < 4; i++)
+        {
+            escreva("Digite o nome do ", i+1, "º documento: ")
+            leia(fila[i])
+        }
+
+        escreva("Ordem de impressão:\n")
+        para(i = 0; i < 4; i++)
+        {
+            escreva("Imprimindo: ", fila[i], "\n")
+        }
+    }
+}

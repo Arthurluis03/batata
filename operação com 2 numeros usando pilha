@@ -1,0 +1,45 @@
+programa {
+    inteiro tabuada, i, numerototal, contador, soma=1, numerotabu, numerotabu2
+    real resultado
+    funcao iniciar()
+
+    {
+        escreva("Digite um número: ")
+        leia(numerotabu)
+        escreva("Digite o segundo numero: ")
+        leia(numerotabu2)
+        escreva("\nSoma dos numeros", numerotabu, " e ", numerotabu2,":\n")
+    }
+
+    funcao somar()
+    {
+        resultado = numerotabu + numerotabu2
+        escreva(numerotabu, " + ", numerotabu2, " = ", resultado, "\n")
+    }
+    funcao subtrair()
+    {
+        resultado = numerotabu - numerotabu2
+        escreva(numerotabu, " - ", numerotabu2, " = ", resultado, "\n")
+    }
+    funcao mult()
+    {
+        resultado = numerotabu * numerotabu2
+        escreva(numerotabu, " x ", numerotabu2, " = ", resultado, "\n")
+    }
+    funcao dividir()
+    {
+        resultado = numerotabu / numerotabu2
+        escreva(numerotabu, " / ", numerotabu2, " = ", resultado, "\n")
+    }
+
+    funcao inicio()
+    {
+        iniciar() // conversa
+
+        // Soma
+        somar()
+        subtrair()
+        mult()
+        dividir()
+    }
+}

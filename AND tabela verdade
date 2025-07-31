@@ -1,0 +1,35 @@
+programa
+{  
+  funcao logica(){ logico A, B, resultado
+
+      
+        escreva("A | B | A E B\n")
+        escreva("-------------\n")
+
+       
+        A = falso
+        B = falso
+        resultado = A e B
+        escreva(A, " | ", B, " | ", resultado, "\n")
+
+        
+        A = falso
+        B = verdadeiro
+        resultado = A e B
+        escreva(A, " | ", B, " | ", resultado, "\n")
+
+     
+        A = verdadeiro
+        B = falso
+        resultado = A e B
+        escreva(A, " | ", B, " | ", resultado, "\n")
+
+        A = verdadeiro
+        B = verdadeiro
+        resultado = A e B
+        escreva(A, " | ", B, " | ", resultado, "\n")}
+    funcao inicio()
+    {
+       logica()
+    }
+}

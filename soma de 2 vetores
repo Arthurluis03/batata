@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro numero1[5], numero2[5], i, somadv, veum,vedois
+
+   
+  para(i = 0; i < 5; i++)
+        {
+            escreva("\nDigite os numeros do primeiro vetor: ")
+            leia(numero1[i])
+        }
+  para(i = 0; i < 5; i++)
+        {
+            escreva("\nDigite os numeros do segundo vetor: ")
+            leia(numero2[i])
+        }
+   
+     para(i=0; i<5; i++)
+     {
+      somadv=numero1[i]-numero2[i]
+      escreva("\nA soma dos numeros é:  ", somadv)
+     }   
+  }
+}

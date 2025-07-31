@@ -1,0 +1,20 @@
+programa {
+    funcao inicio()
+    {
+        cadeia fila[5]
+        inteiro i
+
+        para(i = 0; i < 5; i++)
+        {
+            escreva("Digite o nome do ", i+1, "º nome da fila: ")
+            leia(fila[i])
+        }
+
+        escreva("Ordem de impressão:\n")
+        para(i = 0; i < 5; i++)
+        {
+            escreva("Você é o ", i+1, "º na fila de apresentação ", fila[i], "\n")
+            escreva("\n")
+        }
+    }
+}

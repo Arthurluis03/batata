@@ -1,0 +1,28 @@
+programa {
+
+  inteiro senha, tentativas=0, senhafixa
+  funcao inicio()
+  { escreva("\nDefina a senha Fixa:  ")
+    leia(senhafixa)
+    enquanto(tentativas<3)
+    {
+    escreva("\nDigite a senha:  ")
+    leia(senha)
+     se(senha==senhafixa)
+    {
+      escreva("\nSenha correta, login bem sucedido!!!")
+      pare
+    }
+      tentativas= tentativas+1
+      se(tentativas<=3)
+      {
+      escreva("\nSenha incorreta, tente novamente")
+         se(tentativas==3) 
+         {
+           escreva("\nTentativas em excesso, tente novamente mais tarde!!!")
+         }
+      }
+    }
+   }
+  }
+

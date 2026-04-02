@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikcraft</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/icon" href="src/assets/image/icon.png">
+</head>
+
+<body>
+    <header>
+        <img src="src/assets/image/bikcraft.svg" alt="Nome bikcraft">
+        <nav>
+            <ul class="list">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Modelos</a></li>
+                <li><a href="#">Lojas</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left"> 
+            <h1>Bicicletas de qualidade</h1>
+            <p>
+                A loja Bikcraft, cria as melhores bicicletas do mundo. 
+                Elas vem equipadas com o melhores acessorios da marca. 
+            </p>
+            
+                <a href="#">Ver mais</a>
+        </div>
+             <img src="src/assets/image/bicicleta.jpg" alt="Modelo de bike">
+    
+    </main>
+    <!-- inicio section-->
+     <section>
+        <h1>Vantagens bikcraft</h1>
+        <ul>
+            <li><img src="src/assets/image/eletrica.svg" alt="icone de bicicleta"></li>
+                <p>Permite você viajar distâncias inimaginaveis com sua bike</p>
+            <li><img src="src/assets/image/velocidade.svg" alt="icone de velocidade"> </li>
+            <h2>40km/h</h2>
+            <p>A bicicleta eletrica mais rapida disponivel hoje no mercado </p>
+            <li><img src="src/assets/image/rastreador.svg" alt="icone de rastreador"></li>
+                <p>Sistema anti-furto para melhor segurança </p>
+        </ul>
+     </section>
+    <!-- fim section-->
+     <footer>
+        <p>bikcraft. alguns direitos resevados.</p>
+     </footer>
+
+</body>
+</html>
